@@ -46,8 +46,9 @@ function generate(inputText){
   }
 
   if (inputText == ""){
-    inputBox.style.animation = "shake 0.5s";
+
   }
+
   else{
     outputPower.innerText = selectedPower;
     restyle();

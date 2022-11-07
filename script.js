@@ -61,14 +61,6 @@ function generate(inputText){
     outputPower.innerText = "Being an awesome Professor";
   }
 
-  if (inputText == "ryan"){
-    outputPower.innerText = "Shapes";
-  }
-
-  if (inputText == "joe"){
-    outputPower.innerText = "Losing";
-  }
-
   previouslyEntered = inputText;
 
 };
